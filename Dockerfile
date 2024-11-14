@@ -7,6 +7,9 @@ WORKDIR /app
 # copy code
 COPY . .
 
+# Update pip
+pip install --upgrade pip
+
 # Install additional dependencies for KServe and FastAPI
 RUN pip install -r requirements.txt
 
