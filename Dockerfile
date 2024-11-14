@@ -1,5 +1,5 @@
 # Base Image
-FROM python:3.10-alpine
+FROM ubuntu/python:3.10-22.04
 
 # creating working folder
 WORKDIR /app
